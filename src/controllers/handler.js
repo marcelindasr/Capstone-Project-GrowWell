@@ -15,10 +15,10 @@ async function postUserHandler(request, h) {
     tokenFirebase,
     fullName,
     email,
-    dateOfBirth,
+    dateOfBirth
   } = request.payload;
   const userId = crypto.randomUUID();
-  const createdDate = new Date().toISOString();
+  const createdAt = new Date().toISOString();
 
   const data = {
     "userId": userId,
