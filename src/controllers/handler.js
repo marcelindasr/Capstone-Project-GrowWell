@@ -15,7 +15,7 @@ async function postUserHandler(request, h) {
     tokenFirebase,
     fullName,
     email,
-    image,
+    dateOfBirth,
   } = request.payload;
   const userId = crypto.randomUUID();
   const createdDate = new Date().toISOString();
@@ -25,9 +25,9 @@ async function postUserHandler(request, h) {
     "userToken": tokenFirebase,
     "fullName": fullName,
     "email": email,
-    "image": image,
-    "createdDate": createdDate,
-    "updatedDate": createdDate,
+    "dateOfBirth": dateOfBirth,
+    "createdAt": createdAt,
+    "updatedAt": updatedAt,
   }
 
   await storeUserData(userId,data);
@@ -85,7 +85,7 @@ async function updateUserHandler(request, h) {
     userToken,
     fullName,
     email,
-    image,
+    dateOfBirth,
     createdDate,
   } = request.payload;
   const updatedDate = new Date().toISOString();
@@ -95,7 +95,7 @@ async function updateUserHandler(request, h) {
     "userToken": userToken,
     "fullName": fullName,
     "email": email,
-    "image": image,
+    "dateOfBirth": dateOfBirth,
     "createdDate": createdDate,
     "updatedDate": updatedDate,
   }
@@ -115,20 +115,20 @@ async function postPredictHandler(request, h) {
   const {
     age,
     height,
-    predictionResult,
-    suggestion,
+    gender,
+    predictionResult
   } = request.payload;
   const predictionId = crypto.randomUUID();
-  const predictionDate = new Date().toISOString();
+  const createdAt = new Date().toISOString();
 
   const data = {
     "userId": userId,
     "predictionId": predictionId,
     "age": age,
     "height": height,
+    "gender": gender,
     "predictionResult": predictionResult,
-    "suggestion": suggestion,
-    "predictionDate": predictionDate
+    "createdAt": createdAt
   }
 
   await storePredictData(userId,predictionId,data);
