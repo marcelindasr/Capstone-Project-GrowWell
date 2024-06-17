@@ -8,7 +8,7 @@ const {
   getUsersData,
   getUserData,
   updateUserData,
-} = require('./firestore');
+} = require('../firestore');
 
 async function postUserHandler(request, h) {
   const { 

@@ -1,5 +1,11 @@
 const {
-  postUserHandler,
+  registerUser,
+  loginUser,
+  logoutUser,
+  resetPassword,
+} = require('./controllers/firebase-auth-controller'); 
+
+const {
   getAllUsersHandler,
   getUserHandler,
   updateUserHandler,
@@ -7,13 +13,28 @@ const {
   getAllPredictionsHandler,
   getPredictionHandler,
   deletePredictionHandler,
-} = require('./handler');
+} = require('./controllers/handler');
 
 const routes = [
   {
     method: 'POST',
-    path: '/users',
-    handler: postUserHandler,
+    path: '/api/register',
+    handler: registerUser,
+  },
+  {
+    method: 'POST',
+    path: '/api/login',
+    handler: loginUser,
+  },
+  {
+    method: 'POST',
+    path: '/api/logout',
+    handler: logoutUser,
+  },
+  {
+    method: 'POST',
+    path: '/api/reset-password',
+    handler: resetPassword,
   },
   {
     method: 'GET',
@@ -49,7 +70,7 @@ const routes = [
     method: 'DELETE',
     path: '/users/{userId}/predictions/{predictionId}',
     handler: deletePredictionHandler,
-  },
+  }
 ];
 
 module.exports = routes;
