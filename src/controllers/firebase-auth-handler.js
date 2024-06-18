@@ -6,18 +6,17 @@ const {
   sendEmailVerification,
   sendPasswordResetEmail,
 } = require('../config/firebase');
+const { storeUserData } = require('../config/firestore');
 const auth = getAuth();
 
 class FirebaseAuthController {
   async registerUser(request, h) {
-    const { email, password, confirmPassword, fullname, dateOfBirth } = request.payload;
+    const { email, password, confirmPassword, fullName, dateOfBirth } = request.payload;
 
-    // Validate input
-    if (!email || !password || !confirmPassword || !fullname || !dateOfBirth) {
+    if (!email || !password || !confirmPassword || !fullName || !dateOfBirth) {
       return h.response({ error: 'All fields are required' }).code(422);
     }
 
-    // Validate password confirmation
     if (password !== confirmPassword) {
       return h.response({ error: 'Passwords do not match' }).code(422);
     }
@@ -25,7 +24,17 @@ class FirebaseAuthController {
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       await sendEmailVerification(auth.currentUser);
-
+      const createdDate = new Date().toISOString();
+      const { uid } = userCredential.user;
+      const data = {
+        "userId": uid,
+        "fullName": fullName,
+        "dateOfBirth": dateOfBirth,
+        "email": email,
+        "createdDate": createdDate,
+        "updatedDate": createdDate,
+      }
+      await storeUserData(uid,data);
       return h.response({ message: 'Verification email sent! User created successfully!' }).code(201);
     } catch (error) {
       console.error(error);
