@@ -62,7 +62,7 @@ async function getKidHandler(request, h) {
       status: 'success',
       data: kidsData,
     })
-    response.code(201);
+    response.code(200);
     return response;
   } catch(error){
     const response = h.response({
@@ -74,15 +74,24 @@ async function getKidHandler(request, h) {
   }
 }
 
-async function deleteKidsHandler(request, h){
-  const{userId, kidsId} = request.params;
-  const result = await deleteKidsData(userId, kidsId);
-  const response = h.response({
-    status: 'success',
-    message: result,
-  })
-  response.code(200);
-  return response;
+async function deleteKidsHandler(request, h) {
+  const { userId, kidsId } = request.params;
+  try {
+    const result = await deleteKidsData(userId, kidsId);
+    const response = h.response({
+      status: 'success',
+      message: result.message,
+    });
+    response.code(200);
+    return response;
+  } catch (error) {
+    const response = h.response({
+      status: 'fail',
+      message: 'Failed to delete kids data',
+    });
+    response.code(500);
+    return response;
+  }
 }
 
 module.exports = {
