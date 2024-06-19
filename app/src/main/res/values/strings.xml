@@ -6,7 +6,7 @@
     <string name="title_peta">Cek Rumah Sakit</string>
     <string name="title_riwayat">Riwayat</string>
     <string name="title_profil">Akun</string>
-    <string name="google_maps_key">AIzaSyDYlo0ljhT96cw0NcW9X5Wovo4ziUzi60Y</string>
+    <string name="google_maps_key">API_KEY</string>
 
 
     <!-- Fragment Profile -->
