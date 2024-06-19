@@ -1,6 +1,7 @@
 const Hapi = require("@hapi/hapi");
 const Cookie = require("@hapi/cookie");
 const routes = require("./routes");
+const loadModel = require('../service/loadModel');
 require("dotenv").config();
 
 const init = async () => {
@@ -13,6 +14,9 @@ const init = async () => {
       },
     },
   });
+
+  const model = await loadModel();
+  server.app.model = model;
 
   await server.register(Cookie);
 

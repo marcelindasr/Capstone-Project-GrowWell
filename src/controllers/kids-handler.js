@@ -27,7 +27,8 @@ async function postKidsHandler(request, h) {
 
   const response = h.response({
     status: 'success',
-    message: 'kids data successfully added'
+    message: 'kids data successfully added',
+    data
   })
   response.code(201);
   return response;

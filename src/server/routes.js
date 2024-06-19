@@ -68,17 +68,17 @@ const routes = [
   },
   {
     method: 'GET',
-    path: '/users/{userId}/kids/{kidsId}/predictions',
+    path: '/users/{userId}/predictions',
     handler: getAllPredictionsHandler,
   },
   {
     method: 'GET',
-    path: '/users/{userId}/kids/{kidsId}/predictions/{predictionId}',
+    path: '/users/{userId}/predictions/{predictionId}',
     handler: getPredictionHandler,
   },
   {
     method: 'DELETE',
-    path: '/users/{userId}/kids/{kidsId}/predictions/{predictionId}',
+    path: '/users/{userId}/predictions/{predictionId}',
     handler: deletePredictionHandler,
   },
   {

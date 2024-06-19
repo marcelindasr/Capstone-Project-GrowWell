@@ -1,29 +1,29 @@
 const { Firestore } = require('@google-cloud/firestore');
 
-async function storePredictData(userId, kidsId, predictionId, data) {
+async function storePredictData(userId, predictionId, data) {
   const db = new Firestore({
     databaseId: 'growwell-db'
   });
 
-  const predictCollection = db.collection('users').doc(userId).collection('kids').doc(kidsId).collection('prediction_results');
+  const predictCollection = db.collection('users').doc(userId).collection('prediction_results');
   return predictCollection.doc(predictionId).set(data);
 }
 
-async function getPredictionsData(userId, kidsId) {
+async function getPredictionsData(userId) {
   const db = new Firestore({
     databaseId: 'growwell-db'
   });
 
-  const snapshot = await db.collection('users').doc(userId).collection('kids').doc(kidsId).collection('prediction_results').get();
+  const snapshot = await db.collection('users').doc(userId).collection('prediction_results').get();
   return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 }
 
-async function getPredictionData(userId, kidsId, predictionId) {
+async function getPredictionData(userId, predictionId) {
   const db = new Firestore({
     databaseId: 'growwell-db'
   });
 
-  const predictionRef = db.collection('users').doc(userId).collection('kids').doc(kidsId).collection('prediction_results').doc(predictionId);
+  const predictionRef = db.collection('users').doc(userId).collection('prediction_results').doc(predictionId);
   const doc =  await predictionRef.get()
   if (!doc.exists){
     throw new Error('Prediction data couldn\'t be found')
@@ -31,12 +31,12 @@ async function getPredictionData(userId, kidsId, predictionId) {
   return { id: doc.id, ...doc.data() };
 }
 
-async function deletePredictionData(userId, kidsId, predictionId) {
+async function deletePredictionData(userId, predictionId) {
   const db = new Firestore({
     databaseId: 'growwell-db'
   });
 
-  const predictionRef = db.collection('users').doc(userId).collection('kids').doc(kidsId).collection('prediction_results').doc(predictionId);
+  const predictionRef = db.collection('users').doc(userId).collection('prediction_results').doc(predictionId);
   await predictionRef.delete()
   return { message: 'Prediction deleted successfully' };
 }

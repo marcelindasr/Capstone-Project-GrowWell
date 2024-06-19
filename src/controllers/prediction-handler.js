@@ -1,4 +1,5 @@
 const crypto = require('crypto');
+const predictClassification = require('../service/inferenceService');
 const { 
   storePredictData, 
   getPredictionsData,
@@ -7,31 +8,37 @@ const {
 } = require('../config/firestore');
 
 async function postPredictHandler(request, h) {
-  const { userId } =  request.params;
+  const { userId, kidsId } =  request.params;
+  const { model } = request.server.app;
   const {
+    name,
     age,
+    gender,
     height,
-    predictionResult,
-    suggestion,
   } = request.payload;
+
+  const predictionResult = await predictClassification(model, age, gender, height)
   const predictionId = crypto.randomUUID();
   const predictionDate = new Date().toISOString();
 
   const data = {
     "userId": userId,
+    "kidsId": kidsId,
+    "kName": name,
     "predictionId": predictionId,
     "age": age,
+    "gender": gender,
     "height": height,
     "predictionResult": predictionResult,
-    "suggestion": suggestion,
     "predictionDate": predictionDate
   }
 
-  await storePredictData(userId,predictionId,data);
+  await storePredictData(userId, predictionId, data);
 
   const response = h.response({
     status: 'success',
-    message: 'Data prediksi berhasil ditambahkan'
+    message: 'Prediksi data  berhasil dilakukan',
+    data
   })
   response.code(201);
   return response;
