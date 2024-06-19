@@ -1,0 +1,327 @@
+<resources>
+    <string name="app_name">GrowWell</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_peta">Cek Rumah Sakit</string>
+    <string name="title_riwayat">Riwayat</string>
+    <string name="title_profil">Akun</string>
+    <string name="google_maps_key">AIzaSyDYlo0ljhT96cw0NcW9X5Wovo4ziUzi60Y</string>
+
+
+    <!-- Fragment Profile -->
+    <string name="profile_out">Keluar</string>
+    <string name="profile_about">Tentang Kami</string>
+    <string name="profile_sk">Syarat dan Ketentuan</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="panah"> > </string>
+    <string name="s_kJudul">Syarat dan Ketentuan</string>
+    <string name="s_kTerm0">Selamat datang di GrowWell. Dengan menggunakan aplikasi GrowWell ("Aplikasi"), Anda menyetujui untuk terikat oleh syarat dan ketentuan berikut ("Syarat dan Ketentuan"). Syarat ini mengatur penggunaan Anda terhadap GrowWell yang disediakan oleh PT. GrowWell, Tbk .
+        </string>
+    <string name="s_kTerm1">1. Pendaftaran: Untuk menggunakan Aplikasi ini, Anda mungkin perlu mendaftar dan menyediakan informasi tertentu tentang diri Anda. Anda setuju untuk memberikan informasi yang benar, akurat, dan terkini, dan memperbaharui informasi ini jika ada perubahan.
+        </string>
+    <string name="s_kTerm2"> 2. Privasi:Kebijakan privasi kami, yang menjelaskan bagaimana kami menggunakan informasi Anda, adalah bagian integral dari Syarat dan Ketentuan ini. Dengan menggunakan Aplikasi ini, Anda menyetujui pemrosesan informasi tersebut sesuai dengan kebijakan privasi kami.
+        </string>
+    <string name="s_kTerm3">3. Penggunaan Aplikasi:Aplikasi ini menyediakan prediksi stunting yang dapat digunakan untuk melakukan checking terhadap kondisi kesehatan anak. Anda setuju untuk menggunakan Aplikasi ini hanya untuk tujuan yang sah dan tidak akan menggunakan aplikasi ini untuk mengirim atau menyimpan materi yang melanggar hukum atau untuk tujuan penipuan.
+        </string>
+    <string name="s_kTerm4">4. Hak Kekayaan Intelektual:Semua hak kekayaan intelektual terkait dengan Aplikasi ini adalah milik PT. GrowWell, Tbk atau pemberi lisensi kami. Kecuali yang diizinkan oleh hukum, Anda tidak boleh menyalin, memodifikasi, menyebarkan, menjual, atau menyewakan bagian mana pun dari Aplikasi kami tanpa izin tertulis dari kami.
+        </string>
+    <string name="s_kTerm5">5. Pembatasan Akses:PT. GrowWell, Tbk berhak untuk menangguhkan atau menghentikan akses Anda ke Aplikasi jika Anda melanggar syarat dan ketentuan ini.
+        </string>
+    <string name="s_kTerm6">6. Modifikasi Syarat:PT. GrowWell, Tbk dapat mengubah Syarat dan Ketentuan ini dari waktu ke waktu. Setiap perubahan akan efektif segera setelah penerbitan Syarat dan Ketentuan yang direvisi. Penggunaan lanjutan Aplikasi ini setelah perubahan tersebut akan dianggap sebagai penerimaan Anda terhadap perubahan tersebut.
+        </string>
+    <string name="s_kTerm7">7. Batasan Tanggung Jawab:PT. GrowWell, Tbk tidak bertanggung jawab atas kerugian atau kerusakan yang mungkin Anda alami dari penggunaan Aplikasi ini, kecuali di mana hal ini dilarang oleh hukum.
+        </string>
+    <string name="s_kTerm8">8. Hukum yang Berlaku:Syarat dan Ketentuan ini diatur oleh hukum Indonesia, dan Anda setuju bahwa pengadilan Indonesia akan memiliki yurisdiksi eksklusif atas setiap sengketa yang mungkin timbul di bawah atau sehubungan dengan Syarat dan Ketentuan ini.
+        </string>
+    <string name="s_kTerm9">9. Kontak:Jika Anda memiliki pertanyaan atau kekhawatiran mengenai Syarat dan Ketentuan ini, silakan hubungi kami di @contohemail@gmail.com.
+        </string>
+    <string name="s_kTerm10">10. Penghentian: Anda dapat menghentikan penggunaan Aplikasi kapan saja dengan menghapus semua salinan aplikasi yang Anda miliki.</string>
+
+    <string name="about0">Selamat Datang di GrowWell</string>
+    <string name="about1">GrowWell adalah aplikasi yang dirancang khusus untuk mendukung para ibu dalam memberikan perawatan terbaik bagi anak-anak mereka, terutama untuk mencegah kondisi stunting yang dapat mempengaruhi perkembangan anak. Melalui GrowWell, kami berkomitmen untuk memberikan edukasi yang mendalam tentang pentingnya nutrisi dan kesehatan bagi balita.
+        </string>
+    <string name="about2">Misi kami adalah memberdayakan ibu di seluruh Indonesia dengan pengetahuan dan alat yang diperlukan untuk mendukung pertumbuhan dan pengembangan anak-anak mereka secara optimal. Kami percaya bahwa pencegahan stunting adalah langkah awal yang penting untuk masa depan yang lebih cerah bagi generasi mendatang.
+        </string>
+    <string name="about3">Edukasi Nutrisi: Dapatkan informasi dan tips tentang nutrisi yang penting untuk pertumbuhan balita. Kami menyediakan panduan nutrisi yang mudah diikuti yang telah disusun oleh ahli gizi terkemuka.
+        </string>
+    <string name="about4">Informasi Imunisasi: Akses jadwal imunisasi yang up-to-date untuk memastikan bahwa anak Anda menerima semua vaksinasi penting tepat waktu untuk melindungi mereka dari penyakit serius.
+        </string>
+    <string name="about5">Kalkulator Stunting: Cek potensi stunting dengan mudah menggunakan kalkulator stunting kami. Masukkan data yang diperlukan dan aplikasi akan membantu menilai risiko stunting pada anak Anda, memberikan rekomendasi untuk tindakan pencegahan lebih lanjut.
+        </string>
+    <string name="about6">Artikel dan Berita Terkini: Tetap terinformasi dengan artikel dan berita terbaru tentang kesehatan anak dan nutrisi. Dapatkan akses eksklusif ke sumber daya yang akan membantu Anda dalam mengasuh dan memberikan yang terbaik untuk buah hati Anda.
+        </string>
+    <string name="about7">Dengan GrowWell, Anda tidak hanya mendapatkan akses ke alat dan informasi yang bermanfaat, tetapi juga menjadi bagian dari komunitas ibu yang mendukung satu sama lain dalam memberikan awal yang sehat untuk anak-anak mereka. Aplikasi ini gratis dan mudah digunakan, dirancang untuk menjadi teman terbaik setiap ibu dalam perjalanan mengasuh anak Untuk informasi lebih lanjut, kunjungi website kami atau hubungi kami melalui email di [email email]. Kami senang bisa menjadi bagian dari perjalanan Anda dalam mengasuh anak.
+        </string>
+    <string name="about8">"Setiap anak berhak tumbuh dengan baik dan sehat - GrowWell bersama Anda dalam setiap langkah."
+        </string>
+
+
+    <!-- Immunization Information -->
+
+    <string name="immunization_name">Judul Artikel</string>
+    <string name="immunization_description">Deskripsi</string>
+
+    <string-array name="data_name">
+        <item>Immunization Information</item>
+        <item>7 konsekuensi dan risiko jika anak tidak mendapatkan imunisasi rutin</item>
+        <item>Imunisasi DT (Difteri Tetanus) - Manfaat dan Efek Sampingnya</item>
+        <item>Pentingnya Imunisasi Anak bagi Perlindungan terhadap Penyakit</item>
+        <item>Lindungi Anak Indonesia Dari Berbagai Penyakit, Pemerintah Perluas Jenis Imunisasi Menjadi 14 Antigen, Cek Yuk</item>
+        <item>Kendalikan Kanker Servix Sejak Dini dengan Imunisasi</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Imunisasi adalah proses pemberian vaksin untuk membuat seseorang kebal terhadap penyakit tertentu. Proses ini bisa dilakukan pada berbagai kelompok usia, mulai dari bayi baru lahir hingga orang dewasa dan lansia. Imunisasi rutin lengkap di Indonesia meliputi imunisasi dasar dan lanjutan, serta telah diperluas untuk mencakup vaksin COVID-19 bagi anak-anak usia 6–11 tahun.
+            - Tujuan dan Indikasi Imunisasi
+            Imunisasi bertujuan melindungi diri dari penyakit berbahaya dan membentuk kekebalan kelompok (herd immunity), sehingga mencegah penyebaran penyakit.
+            - Peringatan dan Larangan
+            Orang dengan riwayat alergi parah terhadap vaksin atau bahan tertentu, serta penderita kanker atau penyakit autoimun dengan daya tahan tubuh lemah, umumnya tidak boleh menerima imunisasi.
+            - Persiapan Sebelum Imunisasi
+            Tidak diperlukan persiapan khusus, namun disarankan membawa buku kesehatan dan identitas diri serta memberi tahu dokter tentang obat yang sedang dikonsumsi.
+            - Jenis dan Efek Samping Imunisasi
+            Beberapa jenis vaksin yang umum diberikan dan efek sampingnya (KIPI) antara lain:
+            1.  Hepatitis B : Nyeri suntikan, demam, kelelahan.
+            2.  Polio : Demam, ruam, hilang nafsu makan.
+            3.  BCG : Ruam, demam, sakit perut.
+            4.  DPT : Demam, nyeri suntikan, muntah.
+            5.  Hib : Bengkak, hilang nafsu makan, demam.
+            6.  Campak : Ruam, nyeri sendi, demam.
+            7.  MMR : Demam, kulit gatal, nyeri suntikan.
+            8.  PCV : Bengkak, demam.
+            9.  Rotavirus : Gatal, muntah, diare.
+            10.  Influenza : Demam, batuk, sakit kepala.
+            11.  Tipes : Gatal, demam, nyeri kepala.
+            12.  Hepatitis A : Demam, mual, kesulitan bernapas.
+            13.  Varisela : Demam, bengkak, nyeri suntikan.
+            14.  HPV : Sakit kepala, demam, pingsan.
+            15.  Japanese encephalitis : Kemerahan, nyeri otot, demam.
+            16.  Dengue : Sakit kepala, nyeri otot, ruam.
+            17.  COVID-19 : Demam, sakit kepala, diare.
+            - Jadwal Imunisasi
+            Imunisasi dasar dan lanjutan memiliki jadwal tertentu sesuai usia anak, dari bayi baru lahir hingga usia remaja.
+            - Kapan Harus ke Dokter
+            Konsultasikan ke dokter jika anak memiliki riwayat alergi atau penyakit autoimun sebelum imunisasi, serta segera ke IGD jika muncul gejala KIPI berat setelah imunisasi.
+            - Setelah Imunisasi
+            KIPI biasanya dapat ditangani mandiri dengan kompres hangat, minum lebih banyak, dan obat penurun panas sesuai resep dokter. Cari pertolongan dokter jika muncul gejala berat seperti reaksi anafilaksis atau kejang.
+            Sumber: Alodokter.com</item>
+        <item>Pada bulan Juli 2020, WHO dan UNICEF menyerukan bahwa terjadi penurunan yang mengkhawatirkan dalam jumlah anak yang menerima imunisasi,  dikarenakan  pembatasan mobilitas dan terganggunya layanan kesehatan esensial selama pandemi COVID-19.
+            Tenaga kesehatan kerap mengingatkan orang tua- dan keluarga tentang jadwal kunjungan anak ke Puskesmas atau Posyandu agar anak bisa mendapatkan imunisasi sesuai jadwal yang direkomendasikan. Pemerintah Indonesia berupaya keras untuk memastikan terpenuhinya hak-hak anak untuk tumbuh sehat, bebas dari penyakit yang dapat dicegah dengan imunisasi.
+            Sebagai orang tua atau pengasuh yang bertanggung jawab, kita perlu tahu alasan pentingnya memastikan anak menerima imunisasi yang lengkap dan tepat waktu. Berikut adalah rangkuman tujuh risiko yang dapat dialami anak, keluarga, dan lingkungannya apabila kebutuhan imunisasi tidak terpenuhi tepat waktu:
+            1. Anak lebih rentan mengalami sakit berat
+            Tahukah Anda, anak yang tidak menerima imunisasi lengkap dan tepat waktu akan lebih rentan mengalami berbagai penyakit yang seharusnya bisa dicegah dengan imunisasi, seperti hepatitis, TBC, batuk rejan, dan difteri? Selain itu, anak yang tidak diimunisasi juga lebih rentan terhadap masalah kesehatan lain; contohnya ketika anak terkena campak, sering mengalami komplikasi seperti diare, pneumonia, kebutaan, dan malnutrisi.
+            2. Kemungkinan anggota keluarga lain turut sakit berat menjadi lebih tinggi
+            Tahukah Anda, anak yang sedang sakit dan tidak menerima imunisasi lebih berisiko menulari orang lain di sekitarnya? Begitu pula sebaliknya; anak yang tidak diimunisasi lebih berisiko tertular penyakit.
+            Setiap kali seseorang sakit, maka anak, atau cucu dan orang tua, juga berisiko terkena. Orang dewasa merupakan sumber infeksi utama pertusis (batuk rejan) pada balita, penyakit ini bahkan dapat menyebabkan kematian pada bayi. Imunisasi tidak hanya melindungi diri anak, tetapi juga orang tua dan anggota keluarga lain serta orang-orang di lingkungan sekitar yang mungkin kesulitan mendapatkan akses vaksinasi.
+            Orang dewasa pun tetap mungkin tertular penyakit dan mengalami gejala yang ringan namun dengan komplikasi yang fatal. Ibu hamil yang tertular virus rubela, misalnya, amat berisiko melahirkan anak dengan berbagai bentuk komplikasi bawaan, disebut dengan sindrom rubela kongenital (SRK). Sementara itu, ibu hamil yang tertular virus campak berisiko mengalami keguguran.
+            3. Anda mungkin ikut menyebabkan wabah penyakit di lingkungan
+            Kasus-kasus penyakit menular di kalangan kelompok rentan dapat berkembang luas menjadi wabah di masyarakat. Untuk alasan inilah, pemerintah saat ini masih memberikan imunisasi polio kepada anak. Jika jumlah anak yang tidak mendapatkan imunisasi bertambah banyak, maka penyakit yang selama bertahun-tahun berhasil dicegah dapat kembali mewabah.
+            4. Sakit dan komplikasi penyakit menimbulkan biaya tinggi untuk pengobatan dan perawatan
+            Suatu penyakit tidak hanya berdampak langsung terhadap penderita dan keluarganya, tetapi juga terhadap masyarakat secara keseluruhan. Kejadian sakit dan komplikasi penyakit dapat membutuhkan biaya tinggi dan perawatan yang memakan waktu.
+            Pasien difteri, misalnya, membutuhkan rawat inap segera di fasilitas kesehatan yang mampu menangani penyakit ini besertakomplikasi-komplikasinya. Pasien akan ditempatkan di ruang isolasi dan diberikan obat-obatan khusus. Penyakit campak rata-rata memerlukan hingga 15 hari perawatan, termasuk rata-rata kehilangan lima atau enam hari kerja atau sekolah bagi karyawan atau pelajar. Orang dewasa yang terkena hepatitis rata-rata tidak bisa bekerja selama satu bulan. Dalam hal bayi yang terlahir dengan SRK, ia akan membutuhkan pengobatan seumur hidup dan bantuan serta terapi medis yang berbiaya tinggi.
+            5. Penurunan kualitas hidup
+            Penyakit-penyakit yang dapat dicegah dengan imunisasi memiliki risiko komplikasi yang mengakibatkan disabilitas tetap. Contohnya, campak yang dapat menyebabkan kebutaan. Ada pula kelumpuhan sebagai gejala terberat yang dikaitkan dengan polio karena dapat menimbulkan disabilitas permanen dan kematian.
+            6. Risiko penurunan harapan hidup
+            Vaksinasi yang tidak lengkap menyumbang kepada penurunan angka harapan hidup. Sebaliknya, imunisasi lengkap hingga anak berusia lima tahun dapat meningkatkan angka harapan hidup. Data menunjukkan bahwa anak yang tidak menerima imunisasi lengkap lebih mungkin tertular berbagai penyakit saat masih kanak-kanak, sehingga angka harapan hidupnya pun menurun.
+            Di Papua Barat, dari tahun 2010 ke tahun 2017, angka harapan hidup meningkat berkat peran penting dari peningkatan jumlah anak yang mendapatkan imunisasi lengkap. [1]
+            Di Brazil, antara tahun 1940 dan 1998, angka harapan hidup saat lahir naik sekitar 30 tahun. Hal ini utamanya disebabkan oleh menurunnya angka kematian akibat penyakit-penyakit yang dapat dicegah dengan imunisasi. Vaksinasi anak-anak tidak hanya dapat mengurangi kasus penyakit, tetapi juga penyebaran infeksi di masyarakat dan berdampak positif terhadap kesehatan orang dewasa dan lansia (perlindungan kolektif).[2]
+            7. Batasan perjalanan dan bersekolah
+            Beberapa negara mensyaratkan imunisasi lengkap bagi warga asing yang hendak berkunjung. Jika tidak diimunisasi, anak dapat kehilangan kesempatan untuk  mengenyam pendidikan di negara-negara ini.
+            Selain itu, sudah semakin banyak sekolah yang mencantumkan ‘imunisasi lengkap’ sebagai syarat pendaftaran. Tujuannya adalah agar semua anak dan warga sekolah terlindung dari penyakit yang dapat dicegah oleh vaksin dan dengan demikian anak dapat menikmati hak belajarnya secara penuh di sekolah.
+            Sumber: unicefIndonesia</item>
+        <item>Vaksinasi difteri tetanus atau biasa lebih dikenal dengan imunisasi DT adalah imunisasi anak yang bertujuan untuk menjaga tubuh dari difteri dan tetanus. Umumnya, imunisasi DT diberikan pada anak berusia 2 bulan hingga 7 tahun dan dapat dilanjutkan dengan imunisasi lanjutan (booster) saat berusia 10–12 tahun.
+            Mari simak ulasan lengkap mengenai pengertian, jadwal pemberian, manfaat, serta efek samping imunisasi DT melalui artikel di bawah ini.
+            Apa itu Imunisasi DT (Difteri Tetanus)? Imunisasi DT (difteri tetanus) merupakan imunisasi untuk melindungi anak dari penyakit difteri dan tetanus. Imunisasi DT dilakukan dengan memberikan vaksin yang mengandung toksoid difteri dan toksoid tetanus.
+            Perlu diketahui bahwa imunisasi DT ini sedikit berbeda dengan imunisasi DPT. Imunisasi DPT merupakan imunisasi yang bertujuan untuk mencegah infeksi difteri, tetanus, dan pertusis (batuk rejan). Sementara itu, imunisasi DT adalah imunisasi yang dilakukan dengan memberikan vaksin difteri dan tetanus. Vaksinasi DT biasanya diberikan untuk anak yang memiliki alergi terhadap bahan vaksin pertusis.
+            Jadwal Pemberian Imunisasi DT Sebetulnya, imunisasi DT untuk usia berapa? Menurut Peraturan Menteri Kesehatan Republik Indonesia Nomor 42 Tahun 2013 dan Nomor 12 Tahun 2017, vaksin DT ini termasuk salah satu imunisasi dasar lengkap anak yang wajib diberikan pada anak berusia 2–4 bulan.
+            Vaksin DT kemudian diberikan sebagai booster pada usia 18 bulan, 5–7 tahun, dan imunisasi lanjutan (lebih dikenal dengan sebutan imunisasi Td/Tdap) untuk remaja berusia 10–18 tahun. Pemberian vaksin ini diulang setiap 10 tahun sekali.
+            Manfaat Imunisasi DT Manfaat utama imunisasi DT adalah untuk melindungi anak dari risiko penyakit difteri dan tetanus. Berikut masing-masing penjelasannya.
+            1. Menurunkan Risiko Penyakit Difteri pada Anak
+            Difteri adalah penyakit menular yang menyerang saluran pernapasan atas dan tenggorokan. Penyebab utama penyakit difteri adalah infeksi bakteri Corynebacterium diphteriae yang dapat menular melalui percikan droplet air liur ataupun udara saat penderitanya batuk atau bersin, serta melalui luka terbuka dari orang yang terinfeksi.
+            Difteri merupakan salah satu penyakit berbahaya yang berisiko menimbulkan komplikasi berupa gangguan pernapasan, kerusakan saraf, hingga gagal jantung. Karena itulah, penting untuk mencegah terjadinya penyakit difteri pada anak dengan melakukan imunisasi DT secara berkala. Bahkan, CDC telah melaporkan bahwa vaksinasi DT yang komplit mengikuti jadwal dapat melindungi anak dari penyakit difteri dengan tingkat efikasi sebesar 97%.
+            2. Menurunkan Risiko Penyakit Tetanus pada Anak
+            Salah satu manfaat imunisasi DT adalah dapat menurunkan risiko terjadinya penyakit tetanus (lockjaw) pada anak. Tetanus adalah kondisi medis yang dapat menyebabkan kram dan kaku terutama pada otot di rahang, dan pada tempat lainnya seperti di leher, tungkai, perut, dan lengan. Selain itu, tetanus dapat memicu terjadinya kejang parah yang berisiko menyebabkan patah tulang hingga gangguan pernapasan dan henti jantung.
+            CDC melaporkan bahwa vaksinasi DT yang lengkap dapat melindungi anak dari tetanus dengan tingkat efikasi hingga 100%.
+            3. Meringankan Gejala Difteri dan Tetanus
+            Selain menurunkan risiko penyakitnya, imunisasi DT juga dapat membantu meringankan gejala yang muncul apabila anak terinfeksi oleh bakteri penyebab difteri dan tetanus.
+            Efek Samping Imunisasi DT. Adapun sejumlah efek samping imunisasi difteri tetanus yang umum terjadi adalah sebagai berikut:
+                - Demam.
+                - Penurunan nafsu makan.
+                - Kelelahan.
+                - Pembengkakan dan nyeri hebat pada area bekas suntikan.
+                - Pusing hingga pingsan.
+                - Mual dan muntah.
+            Selain itu, pada kasus yang jarang terjadi, imunisasi DT juga dapat menimbulkan komplikasi berupa demam tinggi hingga kejang. Jika anak mengalami komplikasi tersebut, maka segera konsultasikan dengan dokter untuk memperoleh tindakan medis yang tepat.
+            Apa yang Harus Dilakukan Pasca Imunisasi DT? Pada dasarnya, anak demam pasca imunisasi DT adalah efek samping yang wajar karena hal tersebut termasuk dalam bentuk respons tubuh anak untuk membentuk sistem kekebalan baru dari vaksin yang disuntikkan.
+            Jika anak mengalami demam pasca imunisasi DT, terdapat beberapa perawatan mandiri di rumah yang bisa dilakukan, di antaranya adalah:
+                - Kompres dengan air dingin pada area bekas suntikan.
+                - Mencukupi kebutuhan cairan tubuh anak (dengan ASI atau air buah).
+                - Mengenakan pakaian yang nyaman untuk si kecil.
+                - Memberikan obat penurun panas sesuai resep dokter.
+            Imunisasi DT adalah salah satu jenis imunisasi dasar anak yang wajib dilakukan untuk menurunkan risiko penyakit difteri dan tetanus. Oleh karenanya, penting bagi setiap individu untuk memperoleh imunisasi DT sesuai dengan jadwal yang telah ditentukan guna melindungi tubuh dari serangan infeksi yang berbahaya.
+            Sumber: siloamhospital.com</item>
+        <item>Pentingnya Imunisasi pada Anak Anak harus mendapatkan imunisasi sedini mungkin. Mendapatkan semua jenis imunisasi yang diwajibkan tepat pada waktunya sangat penting untuk anak, baik laki-laki maupun perempuan. Beberapa jenis vaksin memerlukan beberapa dosis agar dapat memberikan perlindungan yang maksimal. Karena itu menjadi sangat penting bagi setiap anak untuk mendapatkan paket imunisasi lengkap.
+            Jenis imunisasi yang tercantum pada tabel di bawah ini penting untuk melindungi bayi usia kurang dari satu tahun. Jenis imunisasi ini akan memberikan hasil yang sangat efektif jika diberikan pada usia yang tepat.
+            Orang tua dan petugas kesehatan harus mengikuti jadwal imunisasi yang diwajibkan. Jika anak tidak mendapatkan paket imunisasi lengkap sebelum usia satu tahun, maka sangat penting bagi anak tersebut untuk segera melengkapinya.
+            Vaksin Tambahan (Booster) Pada beberapa negara, dosis vaksin tambahan, yang disebut sebagai booster diberikan setelah usia anak satu tahun lebih. Pemberian booster untuk membantu menjaga efektivitas vaksin sehingga anak dapat dilindungi lebih lama. Di Indonesia booster yang diwajibkan diberikan pada anak Sekolah Dasar melalui Bulan Imunisasi Anak Sekolah (BIAS), dengan jadwal:
+            Imunisasi melindungi terhadap beberapa penyakit yang berbahaya. Seorang anak yang tidak mendapatkan imunisasi, cenderung akan mudah terpapar terhadap penyakit yang dapat menyebabkan kecacatan atau kematian. Imunisasi adalah suatu cara untuk menimbulkan/meningkatkan kekebalan seseorang secara aktif terhadap suatu penyakit, sehingga bila kelak ia terpapar dengan penyakit tersebut tidak akan sakit atau hanya sakit ringan.
+            Imunisasi Melindungi Anak dari Penyakit (PD3I) Imunisasi melindungi anak terhadap beberapa Penyakit yang Dapat Dicegah Dengan Imunisasi (PD3I). Semua anak termasuk anak cacat, harus mendapatkan imunisasi. Seorang anak diimunisasi dengan vaksin yang disuntikkan atau diteteskan melalui mulut.
+            Pada beberapa negara hepatitis masih menjadi masalah. 10 dari 100 orang akan menderita Hepatitis sepanjang hidupnya jika tidak diberi vaksin hepatitis B. Sampai dengan seperempat dari jumlah anak yang menderita hepatitis B dapat berkembang menjadi kondisi penyakit hati yang serius, seperti kanker hati di kemudian hari. Di samping itu wajib diberikan imunisasi Hepatitis B segera setelah bayi lahir untuk mencegah penularan virus hepatitis dari ibu kepada anaknya.
+            Imunisasi BCG dapat melindungi anak dari penyakit Tuberkulosis. Imunisasi DPT dapat mencegah penyakit dipteri, pertusis dan tetanus. Dipteri menyebabkan infeksi saluran pernafasan atas, yang dalam beberapa kasus dapat menyebabkan kesulitan bernafas bahkan kematian. Tetanus menyebabkan kekakuan otot dan kekejangan otot yang menyakitkan dan dapat mengakibatkan kematian. Pertusis atau batuk rejan mempengaruhi saluran pernafasan dan dapat menyebabkan batuk hingga delapan minggu.
+            Semua anak perlu mendapatkan imunisasi polio. Tanda-tanda polio adalah tungkai tiba-tiba lumpuh dan sulit untuk bergerak. Dari 200 anak yang terinfeksi polio, maka satu orang akan menjadi cacat sepanjang hidupnya.
+            Semua anak wajib mendapatkan imunisasi Campak, karena campak dapat memperburuk kondisi anak yang kurang gizi, perkembangan mental yang buruk, dan melemahnya penglihatan serta pendengaran. Tanda-tanda seorang anak menderita campak adalah demam dan ruam merah pada wajah, disertai dengan batuk, cairan keluar dari hidung serta mata merah. Anak dapat meninggal karena campak.
+            Kondisi di Beberapa Negara Di banyak negara, pneumonia yang disebabkan oleh bakteri pneumococcus atau bakteri Haemophilus influenzae type B (Hib) merupakan hal yang dianggap biasa tetapi sebetulnya dapat menyebabkan kematian. Di samping itu bakteri ini dapat juga menyebabkan terjadinya meningitis dan penyakit infeksi serius lainnya.
+            Berbagai jenis bakteri ini sangat berbahaya untuk anak usia di bawah lima tahun. Untuk mencegah kematian, maka anak perlu diberikan vaksin Haemophilus influenzae type B , dan vaksin pneumococcal (PCV). Vaksin pentavalent ( five in one), yang dikombinasikan dengan DPT, hepatitis B dan Hib kini semakin banyak digunakan di beberapa negara di dunia.
+            Vaksin bagi Ibu dan Anak Pemberian imunisasi kepada Wanita Usia Subur (WUS) minimal dua dosis TT sebelum atau pada saat hamil, akan memberikan perlindungan kepada ibu dan bayinya sampai dengan usia beberapa minggu setelah lahir.
+            Pada usia dua bulan, bayi memerlukan dosis pertama TT (komponen tetanus dari vaksin DPT) untuk memperpanjang masa perlindungan yang diterima dari ibu terhadap tetanus. Pada beberapa negara di mana banyak kekurangan vitamin A merupakan hal yang biasa, pemberian kapsul vitamin A dosis tinggi diselenggarakan setiap 4 – 6 bulan sekali kepada setiap anak usia enam bulan sampai lima tahun. Vitamin A dibagikan bersama kegiatan imunisasi rutin (seperti vaksin campak pada usia sembilan bulan) atau selama masa kampanye khusus. Vitamin A juga merupakan bagian penting dari perawatan campak.
+            ASI dan kolostrum atau susu kental berwarna kekuning-kuningan yang diproduksi selama beberapa hari setelah seorang ibu bersalin, memberikan bayi perlindungan terhadap diare, pneumonia, dan beberapa penyakit lain. Kolostrum sering juga disebut sebagai “vaksin pertama bagi bayi baru lahir“ berguna untuk membangun kekebalan anak terhadap penyakit. Semua ibu hamil dan anak perlu mendapatkan Imunisasi TT.
+            Sumber: krakataumedia.com</item>
+        <item>Untuk melindungi anak-anak Indonesia dari berbagai penyakit berbahaya yang dapat dicegah dengan imunisasi pemerintah kini memperluas jenis imunisasi rutin anak, dari 11 menjadi 14 jenis antigen vaksin.
+            Upaya ini juga merupakan salah satu wujud dari transformasi kesehatan dalam akses layanan primer dengan terus menguatkan upaya preventif di layanan primer. Tujuannya, mendorong peningkatan layanan kesehatan masyarakat di tingkat primer sehingga dapat melindungi masyarakat dari penyakit.
+            Direktur Jenderal Pencegahan dan Pengendalian Penyakit (P2P) dr. Maxi Rein Rondonuwu, D.H.S.M, MARS menyampaikan, program-program nasional seperti imunisasi harus dapat dilakukan sepenuhnya. Apalagi, Kementerian Kesehatan menargetkan 95 persen anak harus mendapatkan imunisasi dasar lengkap.
+            “Karena saya lihat ada beberapa kabupaten/kota yang bisa mendekati (target) nasional, tapi ada kabupaten/kota yang sangat jauh sekali imunisasi dasar lengkapnya,” ujar Maxi dikutip Kamis (1/2/2024).
+            “Memang, 95 persen anak-anak kita harus sudah mendapatkan imunisasi. Maka dari itu, kita perluas untuk imunisasi menjadi 14 antigen dan itu sudah nasional.”
+            Pada perluasan imunisasi ini, terdapat tiga vaksin tambahan, yaitu Human Papillomavirus Vaccine (HPV) untuk penyakit kanker, Pneumococcal Conjugate Vaccine (PCV) untuk penyakit pneumonia, dan Rotavirus Vaccine (RV) untuk penyakit diare. Kemenkes juga memberikan imunisasi polio suntik dosis kedua atau IPV2 untuk memperkuat perlindungan dari polio.
+            Dengan tambahan tersebut, 14 jenis vaksin yang diberikan pada imunisasi rutin meliputi BCG (Bacillus Calmette-Guérin) untuk penyakit tuberkulosis (TB), DPT-Hib untuk penyakit difteri, tetanus, pertusis (batuk rejan), hepatitis B, dan infeksi Haemophilus influenzae tipe b.
+            Kemudian, imunisasi hepatitis B, MMR dan MR untuk campak rubella, OPV atau vaksin polio tetes serta IPV dan IPV2 atau vaksin polio suntik, vaksin TT, DT, dan td untuk penyakit difteri tetanus, vaksin Japanese Encephalitis (JE) untuk penyakit radang otak, serta HPV, PCV, dan Rotavirus.
+            Lindungi anak dari kanker serviks
+            Kanker serviks atau leher rahim merupakan kanker yang bisa dicegah dengan imunisasi HPV. Berdasarkan data yang dihimpun Kementerian Kesehatan, sebanyak lebih dari 103 juta perempuan berusia 15 tahun ke atas di Indonesia berisiko terkena penyakit kanker serviks.
+            Selain itu, sekitar 36.000 perempuan terdiagnosis kanker serviks setiap tahunnya dan sekitar 70 persen di antaranya berada pada stadium lanjut. Angka kematian akibat kanker serviks pun tergolong tinggi, yakni sekitar 21.000 kematian pada 2020.
+            Sementara itu, data Globocan tahun 2021 mencatat, terdapat 36.633 kasus kanker serviks di Indonesia dengan angka kematian yang semakin meningkat. Perluasan pencanangan imunisasi HPV untuk menjaga masa depan anak-anak perempuan Indonesia agar selalu sehat.
+            “Vaksin HPV ini akan diberikan secara gratis dan sangat penting untuk melindungi anak perempuan dari kanker serviks atau kanker leher rahim. Tingkat kematian akibat kanker ini mencapai 50 persen karena mereka datang sudah terlambat,” terang Dirjen Maxi.
+            “Imunisasi merupakan upaya yang paling murah. Kalau sudah kena kanker serviks sudah pasti mahal biayanya. Tolong sampaikan kepada masyarakat, terutama yang memiliki anak perempuan usia 11 dan 12 tahun, untuk segera memanfaatkan program pemerintah ini.”
+            Perluasan imunisasi PCV dan Rotavirus
+            Pneumonia dan diare merupakan 2 dari 5 penyebab tertinggi kematian balita di Indonesia yang dapat dicegah dengan imunisasi PCV dan Rotavirus.
+            Imunisasi PCV telah diberikan sejak 2016 hingga 2021 dan mencakup seluruh kabupaten/kota di Bangka Belitung dan Nusa Tenggara Barat (NTB) serta beberapa kabupaten/kota di Jawa Barat dan Jawa Timur.
+            Pada 2022, cakupan imunisasi PCV diperluas secara nasional dan diberikan dua kali saat anak berusia 0-11 bulan dan satu kali saat anak usia 12-24 bulan. Sementara itu, pemberian imunisasi Rotavirus (RV) direkomendasikan sebanyak 3 kali, yakni saat bayi berusia 2, 3 dan 4 bulan, guna memberikan perlindungan yang tinggi dan merata.
+            Imunisasi RV sudah diberikan tahun 2022. Awalnya, imunisasi RV mencakup 21 kabupaten/kota di Sumatera Selatan, Bangka Belitung, Sumatera Utara, Jawa Barat, Jawa Tengah, Jawa Timur, Bali, Nusa Tenggara Barat, Nusa Tenggara Timur, Kalimantan Timur, Sulawesi Selatan, Sulawesi Utara, Gorontalo, Maluku, Maluku Utara, Papua dan Papua Barat. Namun, untuk mempercepat penurunan kesakitan dan kematian akibat diare, Kementerian Kesehatan memperluas pemberian imunisasi RV di seluruh Indonesia sejak 2023.
+            “Introduksi imunisasi Rotavirus memang sudah dilakukan sejak 2022, namun kita lakukan pencanangan dan perluasan secara nasional,” kata Dirjen Maxi.
+            Perlindungan polio dosis kedua
+            Untuk perlindungan anak dari polio, Kemenkes melakukan pemberian tambahan imunisasi polio suntik atau IPV (Inactivated Poliovirus Vaccine) dosis kedua sejak 2022 di 3 provinsi, yakni DKI Jakarta, Jawa Barat dan Banten. Pada 2023, IPV diperluas secara nasional.
+            “IPV dosis kedua untuk memperkuat perlindungan dari polio,” Maxi Rein Rondonuwu menambahkan.
+            IPV dosis kedua diberikan pada usia 9 bulan bersamaan dengan imunisasi campak rubella. Secara bertahap, ada penambahan dosis kedua imunisasi IPV atau IPV2 ke dalam jadwal imunisasi rutin sehingga jumlah pemberian imunisasi rutin polio menjadi 6 dosis.
+            Kombinasi enam dosis ini meliputi 4 dosis imunisasi polio tetes (OPV) dan 2 dosis imunisasi polio suntik (IPV). Hal ini sesuai WHO dan Komite Penasihat Ahli Imunisasi Nasional (Indonesia Technical Advisory Group of Immunization/ITAGI). WHO merekomendasikan kombinasi 4 dosis bOPV (bivalent Oral Polio Vaccine) disertai 2 dosis IPV.
+            Imunisasi polio tetes diberikan pada usia 1, 2, 3, dan 4 bulan. Pada usia 4 bulan, bayi diberikan juga vaksin Polio suntik (IPV). Imunisasi polio suntik pada usia 4 bulan diberikan bersamaan dengan imunisasi DPT-HB-Hib.
+            Imunisasi polio suntik diberikan di paha kiri sedangkan imunisasi DPT-HB-Hib di paha kanan serta harus menggunakan alat suntik yang berbeda.
+            Berikut ini jadwal imunisasi polio lengkap dalam program nasional:
+            Usia 1 bulan: imunisasi polio tetes (OPV1)
+            Usia 2 bulan: imunisasi polio tetes (OPV2)
+            Usia 3 bulan: imunisasi polio tetes (OPV3)
+            Usia 4 bulan: imunisasi polio tetes (OPV4) dan polio suntik (IPV1)
+            Usia 9 bulan: imunisasi polio suntik (IPV2)
+            Sumber: dinkes.acehprov.go.id </item>
+        <item>Kanker merupakan salah satu masalah kesehatan di Indonesia. Berdasarkan data Riset Kesehatan Dasar (Riskesdas) 2013, kasus kanker di Indonesia terjadi sebanyak lebih kurang 330.000 orang dengan kasus terbesar adalah kanker serviks atau kanker leher rahim.
+            Sementara itu, data dari WHO _Information Centre on HPV and Cervical Cancer_ menyatakan bahwa 2 dari 10.000 wanita di Indonesia menderita kanker serviks dan diperkirakan 26 wanita meninggal setiap harinya karena kanker serviks.
+            Program nasional pencegahan kanker leher rahim yang sudah dilaksanakan saat ini adalah dengan deteksi dini kanker leher rahim dengan metode IVA. Pencegahan kanker leher rahim akan semakin efektif jika dibarengi dengan melakukan upaya proteksi spesifik dengan memberikan imunisasi HPV.
+            Manfaat Imunisasi HPV Hasil penelitian selama 14 tahun menunjukkan setelah mendapat imunisasi HPV penerima vaksin masih terproteksi 100% terhadap HPV tipe 16 dan 18 sehingga tidak diperlukan imunisasi ulang (booster) Berdasarkan data WHO per September 2016 menunjukkan saat ini baru 67 dari 194
+            negara di dunia yang sudah mengimplementasikan program imunisasi HPV di negaranya, dan sudah banyak hasil dari penelitian yang valid dari negara-negara tersebut menunjukan manfaat yang bermakna untuk menurunkan beban penyakit kanker serviks dan  penyakit terkait infeksi HPV lainnya.
+            Imunisasi HPV merupakan pencegahan primer kanker serviks dimana tingkat keberhasilannya dapat mencapai 100% jika diberikan sebanyak 2 kali pada kelompok umur wanita naif atau  wanita yang belum pernah terinfeksi HPV yaitu  pada populasi  anak perempuan umur 9-13 tahun yang merupakan usia sekolah dasar.
+            Pelaksanaan Imunisasi HPV di Indonesia Pemerintah merencanakan penambahan vaksin baru ke dalam program imunisasi nasional yaitu vaksin HPV dengan pemberian imunisasi HPV kepada siswi perempuan kelas 5 (dosis pertama) dan 6 (dosis kedua) SD/MI dan sederajat baik negeri maupun swasta
+            melalui program Bulan Imunisasi Anak Sekolah (BIAS).Kegiatan pemberian imunisasi HPV melalui program BIAS ini diawali dengan pemberian imunisasi di lokasi percontohan yang memiliki angka prevalensi kanker serviks yang tinggi dan dipandang memiliki kesiapan dalam melaksanakan imunisasi HPV,
+            yaitu provinsi DKI Jakarta mulai bulan Oktober 2016 dan akan dilanjutkan pada tahun depan di dua kabupaten di provinsi DIY yaitu kabupaten Kulonprogo dan Gunung Kidul.
+            Pelaksanaan imunisasi HPV dalam Kegiatan Bulan Imunisasi Anak Sekolah (BIAS) di DKI Jakarta sudah mendapatkan rekomendasi dari Komite Penasihat Ahli Imunisasi Nasional (Indonesian Technical Advisory Group on Immunization).
+            Keamanan vaksin HPV Sejak pertama kali mendapat izin edar pada tahun 2006, lebih dari 200 juta dosis vaksin HPV telah dipakai di seluruh dunia. WHO merekomendasikan agar vaksin HPV masuk dalam program imunisasi nasional.
+            Badan  WHO yaitu Global Advisory Committee on Vaccine Safety (GACVS) mengumpulkan data post marketing surveilans dari Amerika Serikat, Australia, Jepang dan dari manufaktur. Data dikumpulkan dari tahun 2006, sejak pertama kali vaksin HPV diluncurkan sampai tahun 2014. Pada tanggal 12 Maret 2014,
+            GACVS menyatakan tidak menemukan isu keamanan yang dapat merubah rekomendasi vaksinasi HPV.
+            Center for Disease Control and Prevention ( US CDC) yang memantau keamanan pasca-lisensi dari Juni 2006 hingga Maret 2013 menunjukkan tidak ada masalah keamanan vaksin HPV. Atas dasar hasil ini, di Amerika Serikat, vaksin HPV tetap direkomendasikan dan digunakan sebagai vaksinasi rutin.
+            Klarifikasi isu imunisasi HPV menyebabkan kemandulan atau menopause dini Premature Ovarian Failure (POF), sekarang disebut oleh komunitas ilmiah sebagai Primary Ovarian Insufficiency (POI), adalah istilah yang digunakan oleh praktisi medis ketika ovarium seorang wanita berhenti
+            bekerja normal sebelum dia berusia 40 tahun. Hal ini jarang terjadi pada remaja. Sampai saat ini tidak ada bukti yang menunjukkan adanya hubungan kejadian POF ini dengan penggunaan vaksin HPV.
+            Sumber: dinkes.jogjaprov.go.id</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/immu1</item>
+        <item>@drawable/immu2</item>
+        <item>@drawable/immu3</item>
+        <item>@drawable/immu4</item>
+        <item>@drawable/immu5</item>
+        <item>@drawable/immu6</item>
+    </integer-array>
+
+    <!-- Nutritition Information -->
+    <string name="nutritition_name">Judul Artikel</string>
+    <string name="nutritition_description">Deskripsi</string>
+
+    <string-array name="nutri_name">
+        <item>Bubur nasi merah dan brokoli</item>
+        <item>Oatmeal dan Pisang</item>
+        <item>Sandwich roti gandum dengan keju rendah lemak dan telur</item>
+        <item>Mashed potato dan ikan salmon</item>
+        <item>Yogurt rendah lemak dan mangga</item>
+        <item>Smoothie pisang stroberi dan almond</item>
+        <item>Pancake pisang dan telur dengan kayu manis</item>
+        <item>Kerupuk keju gandum utuh</item>
+        <item>Roti panggang alpukat dan telur</item>
+        <item>Golden Milk Waffle</item>
+    </string-array>
+
+    <string-array name="nutri_description">
+        <item>Nasi merah mengandung karbohidrat kompleks yang lebih lambat dicerna oleh tubuh, sehingga memberikan energi yang tahan lama. Selain itu, bubur dari nasi merah juga mengandung serat yang baik untuk pencernaan dan menjaga kesehatan usus.
+            Sementara itu, brokoli mengandung vitamin C dan vitamin K yang penting untuk pertumbuhan tulang dan pembekuan darah. Brokoli juga mengandung serat dan antioksidan yang dapat membantu menjaga kesehatan tubuh secara keseluruhan.
+        </item>
+        <item>Oatmeal dan pisang adalah dua bahan makanan yang sangat baik dan sehat untuk balita.
+            Oatmeal merupakan sumber karbohidrat kompleks yang baik, yang membantu memberikan energi dan memenuhi kebutuhan nutrisi balita. Selain itu, oatmeal juga mengandung serat larut yang baik untuk pencernaan dan menjaga kesehatan usus.
+            Sementara itu, pisang merupakan buah yang kaya akan nutrisi penting seperti vitamin C, potassium, serat, dan karbohidrat kompleks. Pisang juga mudah dicerna oleh tubuh, sehingga cocok untuk dikonsumsi oleh balita yang masih dalam tahap pertumbuhan.
+            Kombinasi oatmeal dan pisang merupakan pilihan sarapan yang sangat baik dan sehat untuk si Kecil. Untuk menambah kalsium dan protein, Mama juga dapat mengkombinasikan oatmeal dengan susu rendah lemak atau yogurt, sedangkan pisang memberikan rasa manis dan nutrisi tambahan.
+        </item>
+        <item>Roti gandum mengandung karbohidrat kompleks yang memberikan energi yang dibutuhkan oleh tubuh, sedangkan keju rendah lemak mengandung protein dan kalsium yang penting untuk pembentukan otot dan tulang balita.Telur juga merupakan sumber protein yang baik, dan mengandung vitamin D yang membantu dalam penyerapan kalsium.
+            Kombinasi antara roti gandum, keju rendah lemak, dan telur akan memberikan nutrisi yang dibutuhkan oleh tubuh si Kecil dalam pertumbuhan dan perkembangan mereka.Tentunya, sandwich roti gandum dengan keju rendah lemak dan telur juga mudah disiapkan dan cocok disajikan untuk sarapan anak.
+        </item>
+        <item>Kentang dan ikan salmon adalah dua bahan makanan yang bisa digabungkan menjadi satu hidangan yang sehat dan bergizi untuk balita.
+            Kentang merupakan sumber karbohidrat kompleks yang memberikan energi dan serat yang baik untuk pencernaan, sedangkan ikan salmon mengandung asam lemak omega-3 yang sangat baik untuk perkembangan otak, kesehatan jantung, dan sistem saraf balita.
+            Selain itu, ikan salmon juga mengandung protein tinggi dan vitamin D yang baik untuk pertumbuhan tulang dan gigi si kecil.
+            Menu yang satu ini bisa disajikan sebagai makan siang atau makan malam bagi balita, untuk memastikan ia mendapatkan nutrisi yang seimbang dan mencukupi
+        </item>
+        <item>Ingin memberikan camilan yang lezat dan sehat untuk si Kecil? Maka yogurt rendah lemak dan mangga bisa menjadi solusinya.
+            Yogurt rendah lemak merupakan sumber kalsium yang baik untuk perkembangan tulang dan gigi balita. Selain itu, yogurt juga mengandung protein dan probiotik yang baik untuk pencernaan si Kecil.
+            Di sisi lain, mangga merupakan buah yang kaya akan vitamin C dan serat. Vitamin C sangat penting untuk meningkatkan sistem kekebalan tubuh balita, sedangkan serat membantu memperlancar pencernaan dan mencegah sembelit.
+            Mangga juga mengandung antioksidan yang baik untuk kesehatan tubuh balita.
+            Pastikan untuk memilih yogurt rendah lemak yang tidak mengandung tambahan gula. Mama juga bisa memilih mangga yang matang dan segar agar nutrisinya tetap terjaga.
+        </item>
+        <item>Smoothie pisang stoberi dan almond merupakan salah satu ide makanan dengan gizi seimbang yang cocok untuk balita.
+            Smoothie ini mengandung berbagai nutrisi penting seperti vitamin C, kalsium, protein, dan serat yang sangat baik untuk kesehatan dan pertumbuhan balita.
+            Pisang dan stroberi mengandung banyak vitamin C yang penting untuk menjaga sistem kekebalan tubuh si kecil. Selain itu, pisang juga mengandung karbohidrat kompleks yang memberikan energi, sedangkan stroberi mengandung serat yang baik untuk pencernaan.
+            Almond, di sisi lain, mengandung protein dan kalsium yang sangat baik untuk perkembangan tulang dan otot. Kandungan lemak sehat di dalam almond juga sangat penting untuk perkembangan otak si Kecil.
+        </item>
+        <item>Pisang yang sudah matang dengan sedikit kayu manis merupakan sumber yang sangat baik untuk karbohidrat kompleks, yang memberikan energi yang stabil dan tahan lama. Pisang juga kaya akan potasium dan serat, yang membantu menjaga kesehatan jantung dan pencernaan balita.
+            Telur adalah sumber protein yang sangat baik, penting untuk pertumbuhan dan perbaikan sel-sel tubuh balita. Telur juga mengandung vitamin D, yang penting untuk kesehatan tulang dan gigi.
+            Tepung, sebagai bahan dasar pancake, bisa memberikan tambahan energi dan jika dipilih tepung yang diperkaya, bisa menjadi sumber tambahan vitamin dan mineral.
+            Kayu manis, meskipun digunakan sebagai opsi, dapat menambah aroma dan sedikit rasa manis alami serta memiliki sifat anti-inflamasi yang bisa bermanfaat bagi kesehatan.
+            Resep pancake ini tidak hanya lezat tapi juga mengandung gizi yang seimbang, kombinasi sempurna antara karbohidrat, protein, dan sedikit rempah untuk meningkatkan cita rasa serta kesehatan pencernaan balita.
+        </item>
+        <item>Keju cheddar, sebagai bahan utama dalam resep ini, adalah sumber kalsium dan protein yang sangat baik, keduanya penting untuk pembentukan tulang dan otot yang kuat pada balita. Keju juga menyediakan vitamin A dan B12, yang mendukung penglihatan dan fungsi saraf.
+            Tepung gandum utuh memberikan serat tambahan yang penting untuk pencernaan yang sehat dan menjaga kestabilan energi balita. Serat juga membantu dalam mengendalikan kadar gula darah yang penting bagi balita yang aktif.
+            Resep ini menghasilkan kerupuk yang renyah dan lezat, yang bisa menjadi camilan bergizi untuk balita, memberikan energi dan nutrisi penting untuk perkembangan mereka.
+        </item>
+        <item>Roti panggang alpukat dan telur adalah kombinasi yang sangat sehat dan sempurna untuk sarapan balita. Alpukat dikenal sebagai buah yang kaya akan lemak sehat, termasuk asam oleat yang baik untuk kesehatan jantung dan perkembangan otak. Selain itu, alpukat juga mengandung banyak serat, folat, dan vitamin seperti K dan C yang mendukung pertumbuhan dan fungsi sel yang sehat.
+            Telur adalah sumber protein berkualitas tinggi yang menyediakan semua asam amino esensial yang dibutuhkan oleh tubuh dalam pertumbuhan. Selain itu, telur juga kaya akan vitamin D, B6, B12, dan mineral seperti zink, besi, dan tembaga, yang semuanya penting untuk mendukung sistem kekebalan tubuh dan perkembangan saraf.
+            Roti gandum utuh, sebagai dasar dari hidangan ini, memberikan karbohidrat kompleks yang penting untuk energi berkelanjutan serta serat tambahan yang mendukung kesehatan pencernaan. Anda dapat memilih roti yang sesuai dengan preferensi diet keluarga, seperti bebas gluten atau multi-grain, untuk menambah nilai nutrisi.
+        </item>
+        <item>Golden milk waffle merupakan sarapan yang unik dan menyehatkan, menonjol karena penggunaan kunyit sebagai bahan utama. Kunyit tidak hanya memberi warna cerah yang menarik tetapi juga dikenal karena sifat anti-inflamasi dan antioksidannya yang kuat. Penggunaan rempah ini dalam resep menambah nilai kesehatan yang signifikan, termasuk mendukung sistem imun dan mengurangi peradangan, yang menjadikannya pilihan ideal untuk memulai hari dengan cara yang sehat.
+            Selain kunyit, waffle ini juga diperkaya dengan campuran rempah lain seperti kayu manis, jahe, dan kapulaga yang menambah aroma hangat dan manfaat kesehatan tambahan. Minyak kelapa dan susu kelapa digunakan sebagai sumber lemak sehat, yang tidak hanya menambah kelembapan dan tekstur lembut pada waffle tetapi juga membantu penyerapan nutrisi larut lemak dari kunyit. Gabungan bahan-bahan ini menghasilkan waffle yang tidak hanya lezat tetapi juga penuh dengan nutrisi yang mendukung kesehatan pencernaan dan imun.
+            Menu ini ideal untuk memulai hari. Cocok untuk dinikmati dengan buah segar atau yogurt untuk menambahkan protein dan serat tambahan.
+        </item>
+    </string-array>
+
+    <integer-array name="nutri_photo">
+        <item>@drawable/nutri1</item>
+        <item>@drawable/nutri2</item>
+        <item>@drawable/nutri3</item>
+        <item>@drawable/nutri4</item>
+        <item>@drawable/nutri5</item>
+        <item>@drawable/nutri6</item>
+        <item>@drawable/nutri7</item>
+        <item>@drawable/nutri8</item>
+        <item>@drawable/nutri9</item>
+        <item>@drawable/nutri10</item>
+    </integer-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="s_kButton">Saya Mengerti, Kembali</string>
+    <string name="title_edit_account">Edit Akun</string>
+    <string name="title_syarat_ketentuan">Syarat dan Ketentuan</string>
+    <string name="title_about">Tentang Kami</string>
+</resources>
