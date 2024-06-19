@@ -9,7 +9,7 @@ const {
     signInWithEmailAndPassword, 
     signOut, 
     sendEmailVerification, 
-    sendPasswordResetEmail
+    sendPasswordResetEmail,
 } = require("firebase/auth") ;
 
 const firebaseConfig = {
