@@ -7,7 +7,7 @@ require("dotenv").config();
 const init = async () => {
   const server = Hapi.server({
     port: process.env.PORT,
-    host: "0.0.0.0",
+    host: process.env.HOST,
     routes: {
       cors: {
         origin: ["*"],
@@ -22,7 +22,7 @@ const init = async () => {
 
   server.state("data", {
     ttl: null,
-    isSecure: false, // Set to true in production
+    isSecure: true, // Set to true in production
     isHttpOnly: true,
     encoding: "base64json",
   });
