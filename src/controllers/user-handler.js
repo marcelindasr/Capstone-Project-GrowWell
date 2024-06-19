@@ -32,7 +32,7 @@ async function getUserHandler(request, h) {
       status: 'success',
       data: userData,
     })
-    response.code(201);
+    response.code(200);
     return response;
   } catch(error){
     const response = h.response({
@@ -46,31 +46,33 @@ async function getUserHandler(request, h) {
 
 async function updateUserHandler(request, h) {
   const { userId } = request.params;
-  const { 
+  const { fullName, email, dateOfBirth } = request.payload;
+  const updatedData = {
     fullName,
     email,
     dateOfBirth,
-    createdDate,
-  } = request.payload;
-  const updatedDate = new Date().toISOString();
+    updatedDate: new Date().toISOString()
+  };
 
-  const data = {
-    "userId": userId,
-    "fullName": fullName,
-    "email": email,
-    "dateOfBirth": dateOfBirth,
-    "createdDate": createdDate,
-    "updatedDate": updatedDate,
+  try {
+    await updateUserData(userId, updatedData);
+    const updatedUser = await getUserData(userId);
+
+    const response = h.response({
+      status: 'success',
+      message: 'User data successfully updated',
+      data: updatedUser
+    });
+    response.code(200);
+    return response;
+  } catch (error) {
+    const response = h.response({
+      status: 'fail',
+      message: 'Failed to update user data',
+    });
+    response.code(500);
+    return response;
   }
-
-  await updateUserData(userId,data);
-
-  const response = h.response({
-    status: 'success',
-    message: 'Data successfully edited'
-  })
-  response.code(200);
-  return response;
 }
 
 module.exports = {
