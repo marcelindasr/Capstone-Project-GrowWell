@@ -42,6 +42,6 @@ This API for the GrowWell app enables CRUD operations. It is built using Node.js
    - Deploy to Cloud Run: `gcloud run deploy --source . --port 5000`
 
 ### **Test the API**
-- Replace our API URL with your own API URL in your test cases or Postman collection.
+- Replace our API URL with your own API URL in your test cases or Postman collection. Also, Ensure the data store in Firebase.
 
 By following these steps, you'll be able to set up, modify, and deploy the GrowWell app API, ensuring that it works seamlessly with your GCP and Firebase configurations.
