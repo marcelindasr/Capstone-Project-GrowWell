@@ -24,7 +24,7 @@ Visual Studio Code
 
 ## **Dataset**
 We get the dataset from kaggle with the title "Stunting Toddler (Balita) Detection (121K rows)"
-- **[Stunting Baby/Toddler Detectio](https://www.kaggle.com/datasets/rendiputra/stunting-balita-detection-121k-rows)**
+- **[Stunting Baby/Toddler Detection](https://www.kaggle.com/datasets/rendiputra/stunting-balita-detection-121k-rows)**
 
 ## **How to Predict**
 Machine Learning models can predict the nutritional status of children/toddlers which are categorized into four categories:
