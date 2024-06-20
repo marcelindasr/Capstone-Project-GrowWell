@@ -29,7 +29,7 @@
         <activity
             android:name=".ChangePasswordActivity"
             android:exported="false" />
-        <activity_splash_screen
+        <activity
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
