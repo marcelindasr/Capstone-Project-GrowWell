@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context=".SignUpActivity">
 
     <LinearLayout
@@ -16,8 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        >
+        app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
             android:id="@+id/tvSignUp"
@@ -40,6 +38,12 @@
             android:layout_gravity="center_horizontal"
             android:paddingBottom="16dp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textStyle="bold"/>
+
         <EditText
             android:id="@+id/etFullName"
             android:layout_width="match_parent"
@@ -49,15 +53,24 @@
             android:background="@drawable/rounded_edittext"
             android:layout_marginBottom="16dp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textStyle="bold"/>
         <EditText
             android:id="@+id/etBirthDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukkan tanggal lahir kamu"
+            android:hint="02 Maret 1998"
             android:padding="12dp"
             android:background="@drawable/rounded_edittext"
             android:layout_marginBottom="16dp"/>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"/>
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
@@ -67,7 +80,11 @@
             android:padding="12dp"
             android:background="@drawable/rounded_edittext"
             android:layout_marginBottom="16dp"/>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kata Sandi"
+            android:textStyle="bold"/>
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
@@ -78,7 +95,11 @@
             android:background="@drawable/rounded_edittext"
             android:drawableEnd="@drawable/baseline_remove_red_eye_24"
             android:layout_marginBottom="16dp"/>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Konfirmasi Kata Sandi"/>
         <EditText
             android:id="@+id/etConfirmPassword"
             android:layout_width="match_parent"
@@ -109,6 +130,7 @@
             android:text="Sudah punya akun? Masuk di sini"
             android:textSize="14sp"
             android:textColor="#000000"
+            android:textStyle="bold"
             android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
