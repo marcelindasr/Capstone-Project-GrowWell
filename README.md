@@ -20,9 +20,6 @@ Our team consist of 2 Machine Learning, 2 Mobile Development, and 2 Cloud Comput
 ## About this Project
 Our app, GrowWell, helps address this by empowering parents to monitor growth, detect stunting, access nutritional information, and find nearby health facilities and immunization information.
 
-## Visual of our product
-
-
 ## Dataset
 You can find the dataset used in this project [here](https://github.com/marcelindasr/Capstone-Project-GrowWell/blob/machine-learning/data_balita.csv).
 
@@ -34,5 +31,5 @@ You can find the dataset used in this project [here](https://github.com/marcelin
 | Mobile Development   | [MD Branch](https://github.com/marcelindasr/Capstone-Project-GrowWell/tree/mobile-development) |
 
 ## Deployment Link APK
-
+[APK](https://drive.google.com/drive/folders/1sOrvkUU8jDN8b_LSd2JHQ58MSJtXb5N6)
 
