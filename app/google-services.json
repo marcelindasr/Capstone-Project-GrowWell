@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "725131715736",
+    "firebase_url": "https://capstone-growwell-app-default-rtdb.firebaseio.com",
+    "project_id": "capstone-growwell-app",
+    "storage_bucket": "capstone-growwell-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725131715736:android:ea9fb0d7a7ae3905479ced",
+        "android_client_info": {
+          "package_name": "com.budiwira.myapplication66"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725131715736-bhlqe6ltome4raoit3t3cj5i1a9roicu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_uAg_BU9iv5_VsgEta6p1fWd5wVW1jXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725131715736-bhlqe6ltome4raoit3t3cj5i1a9roicu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
